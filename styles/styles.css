@@ -1,0 +1,12 @@
+.adaptive-sample-images img {
+  width: 100%; 
+  display: block;
+}
+
+.adaptive-sample-images .box {
+  max-width: 100%; 
+}
+
+.grid-container.full-bleed {
+  width: 100%; 
+}
