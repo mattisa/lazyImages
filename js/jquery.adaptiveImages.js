@@ -187,7 +187,7 @@ $.fn.adaptiveImages = function(options) {
   };
 
 
-  function debounce (fn, delay) {
+  function debounce (callback, delay) {
     var timeout;
     return function() {
       var self = this, args = arguments;
@@ -199,7 +199,7 @@ $.fn.adaptiveImages = function(options) {
     };
   }
 
-  function debounceScroll (fn, delay) {
+  function debounceScroll (callback, delay) {
     var timeout;
     return function() {
       if (timeout) return;
